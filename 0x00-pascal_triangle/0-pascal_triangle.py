@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 
 """
- pascal_triangle
+Create Pascal Triangle
 """
 
 
 def fact(n):
     """
-    Returns the factorial of n
+    n factorial
     """
     if n < 0:
         return None  # or raise an exception
@@ -19,9 +19,7 @@ def fact(n):
 
 def pascal_triangle(n):
     """
-    Returns a list of integers
-    representing the Pascal Triangle of n
-    returns empty list if n <= 0
+    Create the pascal triangle of n
     """
     if n <= 0:
         return []
